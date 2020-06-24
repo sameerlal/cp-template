@@ -7,6 +7,7 @@
 #include <set>
 #include <vector>
 #include <bitset>
+#define NL << endl
 #define mp make_pair
 #define pb push_back
 #define fi first
@@ -23,9 +24,7 @@ using namespace std;
 void solve()
 {
     int n; cin >> n;
-    ll arr[n];
-    for (int i = 0;i<n;i++)
-        cin >> arr[i];
+    cout << n NL;
 }
 
 int main()
