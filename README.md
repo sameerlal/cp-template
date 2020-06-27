@@ -2,10 +2,16 @@
 ## Summary
 The files px.cpp for x=1,2,3.. corresponds to each problem file.  The Makefile supports compiling each problem separately.  Feel free to rename p1.cpp to pa.cpp, but I'm already use to the numbered version so I won't change it.  Then running `make t` will run `./a.out` so you can test against custom input.  Don't forget to run `make clean` before (or after) each competition to reset the workspace.
 ## Cleaning Workspace 
+
 Clean the workspace before a competition by running:
 
     make clean
 This will remove unnecessary files and reset all problem files to the template. It removes VS code bindings, swp files, and the README.  
+
+
+## Startup
+To clean the workspace and open VS code, run
+    make startup
 
 ## In Competition 
 ### Compile and Test Separately 

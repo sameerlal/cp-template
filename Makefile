@@ -34,3 +34,5 @@ clean:
 	@cp template.cpp p3.cpp;
 	@cp template.cpp p4.cpp;
 	@cp template.cpp p5.cpp;
+startup:
+	@make clean; code .
