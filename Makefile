@@ -36,3 +36,11 @@ clean:
 	@cp template.cpp p5.cpp;
 startup:
 	@make clean; code .
+setup:
+	@make startup;
+
+save:
+	@cd saved/ && mkdir $(r) && cp ../p*.cpp $(r) && echo "Saved to saved/$(r) \n"
+
+# push:
+# 	cd saved/ && git add . && git commit -m "$(msg)" && git push
